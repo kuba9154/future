@@ -1,5 +1,7 @@
 Instructions for setting up:
 1) Install pip and virtualenv:
+	sudo easy_install pip
+	sudo pip install virtualenv
 	(http://docs.python-guide.org/en/latest/starting/install/osx/#install-osx)
 	(we'll be working inside a virtual environment so that everything is
 	  standard no matter where we are working)
@@ -8,11 +10,11 @@ Instructions for setting up:
 	virtualenv ~/.virtualenvs/future
 	(don't start the virtual enviroment yet)
 3) Install foreman
-	3a) install rvm with your package manager.
+	3a) install rvm. \curl -sSL https://get.rvm.io | bash
 	3b) reload your shell
-		source ~/.bashrc
+		source ~/.bash_profile
 	3c) Install foreman
-		gem install foreman
+		sudo gem install foreman
 3) Clone the Git repo:
 	3a) set up git:
 		http://help.github.com/mac-set-up-git/
