@@ -26,7 +26,9 @@ Instructions for setting up:
 		(you will see '(future)' prepended to your prompt)
 	cd [dir_for_project]
 	pip install -r requirements.txt
-5) test that everything worked...
+5) setup necessary environment variables 
+	FUTURE_DIR=project/directory/ (don't forget terminating /)
+6) test that everything worked...
 	foreman start
 	(you should see no error messages)
 	(go to localhost:5000 in browser to see site.)
